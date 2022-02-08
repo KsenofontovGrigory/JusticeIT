@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+.App {
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    background: #70efd7;
+}
+
+.navigation-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8%;
+    background: #6bf6fe;
+}
+
+.container-content {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #ffefce;
+    height: 74%;
+}
+
+.content-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8%;
+    background: #f1f8dd;
+}
+
+.content {
+    width: 100%;
+    margin: 60px;
+}
+
+.content input {
+    width: 100%;
+}
+
+.content input {
+    border: 2px solid black;
+}
+
+.content p {
+    margin: 10px 0;
+}
+
+.content button {
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+}
+
+.content div {
+    margin: 20px 50px;
+    text-align: left;
+}
+
+.error {
+    border: 2px solid red!important;
+}
